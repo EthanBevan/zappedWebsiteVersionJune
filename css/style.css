@@ -1116,7 +1116,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch {
 	padding: 100px 0 100px 0;
-	background: #2e2e30;
+	background: #222225;
 }
 
 .pitch-intro {
@@ -1359,7 +1359,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .amazonStore1 .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+	background: #222225; /*linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));*/
 	background-size: cover;
 	/*padding: 200px 100px 200px 0px;*/
 
@@ -1502,6 +1502,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .split-image img {
 	margin: 0 auto;
+	padding: 0px 50px 0px 50px;
 }
 
 .one img {
@@ -2399,8 +2400,23 @@ span {
  	border-radius: 40px;
  }
 
+.imageslessBorder {
 
+	margin: -50px 0px 0px 0px;
+}
 
+.imageslessBorder1 {
+	margin: -110px 0px 0px 0px;
+}
 
+.imageslessBorder2 h1 {
+	margin: -80px 0px 0px 0px;
+}
 
+.imageslessBorder4 {
+	margin: -90px 0px 0px 0px;
+}
 
+img {
+	border-radius: 5%;
+}
