@@ -1502,7 +1502,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .split-image img {
 	margin: 0 auto;
-	padding: 0px 50px 0px 50px;
+	/*padding: 0px 50px 0px 50px;*/
 }
 
 .one img {
@@ -2417,6 +2417,12 @@ span {
 	margin: -90px 0px 0px 0px;
 }
 
-img {
-	border-radius: 5%;
+.imageslessBorder6 {
+	margin: -110px -110px 0px -110px;
 }
+
+.imageslessBorder7 {
+	margin: -40px -110px 0px -110px;
+}
+
+
