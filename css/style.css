@@ -2445,12 +2445,12 @@ margin: 50px 0px 0px 0px;
 }
 
 
-  #mc_embed_signup{background:#bf2305; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+/*  #mc_embed_signup{background:#bf2305; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+*/  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
 
-#mc_embed_signup label {
+/*#mc_embed_signup label {
 	color: white;
 	color: white;
     visibility: visible;
@@ -2502,10 +2502,10 @@ margin: 50px 0px 0px 0px;
 #mce-EMAIL {
 	margin: 30px;
 }
-
+*/
 
 /*@media (max-width: 768px) {
-	
+
 #mc_embed_signup input.email {
     width: 100%;
     margin-bottom: 5px;
@@ -2513,6 +2513,60 @@ margin: 50px 0px 0px 0px;
 }
 
 }*/
+
+#mailchimp {
+	background: #bf2305;
+	color: white;
+	padding: 20px 15px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
+	    font-weight: 900;
+}
+	#mailchimp input {
+		 border: medium none;
+    color: gray;
+   font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  /*  font-style: italic;*/
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+		#mailchimp input.email { background: #fff; color: #222225; }
+		#mailchimp input.name { background: #fff}
+		#mailchimp input[type="submit"] {
+			background: #222225;
+			color: #fff;
+			cursor: pointer;
+			font-size: 15px;
+			width: 35%;
+			padding: 15px 0;
+
+		}
+			#mailchimp input[type="submit"]:hover { color: #bf2305; }
+
+#mailchimp input.email {
+	border-radius: 0px;
+
+}
+
+#mailchimp input[type="submit"] {
+	width: 26%;
+}
+
+#mailchimp input.email:focus {
+  
+    outline: none;
+}
+	
+
+
+
+
 
 
 
