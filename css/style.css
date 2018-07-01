@@ -2517,7 +2517,7 @@ margin: 50px 0px 0px 0px;
 #mailchimp {
 	background: #bf2305;
 	color: white;
-	padding: 20px 15px;
+	padding: 100px 15px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 34px;
@@ -2555,7 +2555,7 @@ margin: 50px 0px 0px 0px;
 }
 
 #mailchimp input[type="submit"] {
-	width: 26%;
+	width: 24%;
 }
 
 #mailchimp input.email:focus {
