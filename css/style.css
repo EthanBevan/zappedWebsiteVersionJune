@@ -2504,9 +2504,15 @@ margin: 50px 0px 0px 0px;
 }
 
 
+/*@media (max-width: 768px) {
+	
+#mc_embed_signup input.email {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0 125px 0 125px; 
+}
 
-
-
+}*/
 
 
 
