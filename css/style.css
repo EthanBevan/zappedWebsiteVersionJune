@@ -2445,8 +2445,63 @@ margin: 50px 0px 0px 0px;
 }
 
 
+  #mc_embed_signup{background:#bf2305; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
 
+#mc_embed_signup label {
+	color: white;
+	color: white;
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeInUp;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin: 0px 0 0 0;
+   font-family: 'Roboto', sans-serif;
+   padding: 20px;
+}
+
+#mc_embed_signup #mce-EMAIL {
+	background-color: #F9F9F9;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+    padding: 0 130px 0 20px;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+	font-size: 0.9em;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    border-color: #222225;
+    background-color: #222225;
+    color: #FFFFFF;
+    box-shadow: 0 0 1px transparent;
+    outline: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#mce-EMAIL {
+	margin: 30px;
+}
 
 
 
