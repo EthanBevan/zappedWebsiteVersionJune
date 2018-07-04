@@ -550,15 +550,18 @@ font-family: Arial;
 
 .form .hero-section {
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/djyes.jpg) no-repeat center center;
-
 	background-size: cover;
-
-
-
-	
-
 	padding: 150px 0 0 0;
 }
+
+.form1 .hero-section1 {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/hiking-along-stoney-shore_4460x4460.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 150px 0 0 0;
+}
+
+
+
 
 .form .hero-content {
 	padding: 50px 0 50px 0;
@@ -2563,9 +2566,383 @@ margin: 50px 0px 0px 0px;
     outline: none;
 }
 	
+.hero-section1 h1 {
+	padding: 0px 0px 210px 0px;
+  text-align: center;
+  color: white;
+   font-family: 'Roboto', sans-serif;
+     font-size: 54px;
+    font-weight: 900;
+}
+
+.hero-section1 p {
+	color: white;
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+}
+
+.article1 {
+	color: #222225;
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+	  text-align: left;
+}
+
+.article2 {
+	color: #222225;
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+	  text-align: center;
+}
+
+
+/* Header/Blog Title */
+
+
+.header h2 {
+  color: #222225;
+      font-size: 54px;
+    font-weight: 900;
+}
+
+.card h2 {
+  color: #222225;
+      font-size: 34px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #222225;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.everythingBlog {
+	text-align: center;
+	background-color: white;
+	padding: 0px;
+}
+
+.everythingBlog h5 {
+	font-style: italic;
+	padding: 10px;
+}
+
+
+/*Paragraph text*/
+.everythingBlog p {
+	
+	padding: 0px;
+}
+
+/*Large screen*/
 
 
 
+
+
+
+
+
+.card p {
+	padding: 30px;
+	
+}
+/*
+@media only screen and (max-width: 300px) {
+    .card p {
+		font-style: italic;
+		padding: 30px;
+}
+}
+*/
+
+
+
+/*
+Images for blog*/
+
+.imageforZappedBlog  {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+
+}
+
+.imageforZappedBlog01 {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+
+}
+
+.imageforZappedBlog02  {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	
+
+}
+
+.imageforZappedBlog03  {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog04  {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog05  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog06  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog07  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog08  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog08_5  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog09  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 50px 30px;
+
+}
+
+.imageforZappedBlog10  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+.imageforZappedBlog11  {
+		height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0 30px 0 30px;
+
+}
+
+
+
+
+
+/*@media screen and (max-width: 540px) {
+ .imageforZappedBlog { 
+    height: 300px;
+    width: auto;
+    	max-width: 100%;
+	max-height: 100%;
+
+  }
+}*/
+
+/*End of images for zapped blog*/
+
+
+
+
+
+
+.imageforZappedBlog2  {
+	height: 100px;
+	padding: 10px;
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+@media screen and (max-width: 540px) {
+ .imageforZappedBlog2 { 
+    height: 200px;
+    width: auto;
+    	max-width: 100%;
+	max-height: 100%;
+
+  }
+}
+
+.imageforZappedBlog3  {
+	height: 500px;
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+	padding: 30px 60px 0px 20px;
+	display: inline-block;
+}
+
+
+@media screen and (max-width: 540px) {
+ .imageforZappedBlog3 { 
+    height: 380px;
+    width: 400px;
+    	max-width: 100%;
+	max-height: 100%;
+
+  }
+}
+
+.newlinkBlog {
+	color: #bf2305;
+	font-size: 18px;
+	font-size: 18px;
+	font-weight: 800px;
+	 text-align: center;
+	 font-family: 'Roboto', sans-serif;
+}
+
+.newlinkBlog1 {
+	color: #3071db;
+	font-size: 18px;
+	font-weight: 800px;
+	 text-align: center;
+	 font-family: 'Roboto', sans-serif;
+
+}
+
+.newlinkBlog:hover {
+	color: #222225;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.newlinkBlog1:hover {
+	color: #222225;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.imageforZappedBlog4 {
+	height: 565px; 
+	width: auto;
+
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+	padding: 30px 60px 0px 20px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 540px) {
+ .imageforZappedBlog4 { 
+    height: 400px;
+    width: 400px;
+    	max-width: 100%;
+	max-height: 100%;
+
+  }
+}
+
+.imageforZappedBlog5 {
+	height: 765px; 
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+	padding: 30px 60px 0px 20px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 540px) {
+ .imageforZappedBlog5 { 
+    height: 565px;
+    width: 400px;
+    	max-width: 100%;
+	max-height: 100%;
+
+  }
+}
 
 
 
